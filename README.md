@@ -43,7 +43,7 @@ _or_
 
 ## 💖 Acknowledgments
 
-- Photo credit: **[Granddaughter’s Name]** at daycare.  
+- Photo credit: **K.belle at daycare.  
 - Built with 💖 using **HTML & CSS**.
 
 ---
