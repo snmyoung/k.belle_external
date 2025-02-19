@@ -1,0 +1,90 @@
+/* General reset for padding and margin */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333333; /* Dark gray text */
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* Header styling */
+  h1 {
+    font-size: 2.5rem;
+    color: #4CAF50; /* Green for header */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Paragraph styling */
+  p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #555555;
+  }
+  
+  /* Link styling */
+  a {
+    color: #FF5722; /* Orange color for links */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Image styling */
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px auto;
+  }
+  
+  /* Unordered list styling */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    font-size: 1.2rem;
+    color: #333333;
+    margin: 5px 0;
+  }
+  
+  /* Add a section or a footer */
+  footer {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  footer p {
+    font-size: 1rem;
+    color: #777777;
+  }
+  
+  /* Hover effect on list items */
+  ul li:hover {
+    color: #4CAF50; /* Change color on hover */
+    cursor: pointer;
+  }
+  
+  /* For mobile responsiveness */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    p, ul li {
+      font-size: 1rem;
+    }
+  }
+  
